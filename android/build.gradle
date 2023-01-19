@@ -124,8 +124,6 @@ repositories {
 
 dependencies {
   def googlePlayServicesVersion = getExtOrDefault('googlePlayServicesVersion')
-  googlePlayServicesVersion = getExtOrDefault('playServicesVersion')
-  googlePlayServicesVersion = getExtOrDefault('playServicesLocationVersion')
 
     //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
